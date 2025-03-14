@@ -7,20 +7,22 @@ This repository contains an AI-driven Real-Time Location System (RTLS) optimizat
 
 🚀 Key Features & Insights
 
-Movement Analysis: Tracking patient, staff, and equipment movement to identify congestion points.
-Lost & IR-Assisted Event Detection: Understanding tracking reliability and navigation challenges.
-High-Traffic Zone Identification: Using heatmaps and clustering to optimize space utilization.
-Predictive Modeling: Forecasting high-traffic periods for better resource planning.
-AI-Powered Optimization: Implementing machine learning techniques to improve patient flow and operational efficiency.
+# Movement Analysis: Tracking patient, staff, and equipment movement to identify congestion points.
+# Lost & IR-Assisted Event Detection: Understanding tracking reliability and navigation challenges.
+# High-Traffic Zone Identification: Using heatmaps and clustering to optimize space utilization.
+# Predictive Modeling: Forecasting high-traffic periods for better resource planning.
+# AI-Powered Optimization: Implementing machine learning techniques to improve patient flow and operational efficiency.
+
 📊 Dataset & Key Variables
 
 This project analyzes IoT tracking data from hospitals, containing columns such as:
 
-moving: Whether an entity (patient, staff, equipment) is in motion.
-lost: Instances where an entity was temporarily untracked.
-irAssisted: Usage of infrared-based tracking for location accuracy.
-roomName & floorName: Identifying areas with high movement or tracking issues.
-timestamps: Analyzing peak activity hours and shift change patterns.
+- moving: Whether an entity (patient, staff, equipment) is in motion.
+- lost: Instances where an entity was temporarily untracked.
+- irAssisted: Usage of infrared-based tracking for location accuracy.
+- roomName & floorName: Identifying areas with high movement or tracking issues.
+- timestamps: Analyzing peak activity hours and shift change patterns.
+- 
 🛠️ Technologies Used
 
 Python, Jupyter Notebook – Data analysis & modeling
